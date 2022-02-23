@@ -14,14 +14,6 @@ public class Todo {
     private String name;
     private boolean isCompleted;
 
-    public Todo() {
-    }
-
-    public Todo(String name, boolean isCompleted) {
-        this.name = name;
-        this.isCompleted = isCompleted;
-    }
-
     public Long getId() {
         return id;
     }
